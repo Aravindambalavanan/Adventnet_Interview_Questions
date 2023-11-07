@@ -1,9 +1,7 @@
 import java.io.*;
 import java.util.*;
-import java.util.Map.Entry;
 
 class GFG {
-
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int t = sc.nextInt();
@@ -20,7 +18,6 @@ class GFG {
 }
 
 class Solution {
-
   public static ArrayList<Integer> duplicates(int arr[], int n) {
     int[] freq = new int[n];
     ArrayList<Integer> list = new ArrayList<>();
